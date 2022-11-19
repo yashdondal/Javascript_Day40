@@ -40,7 +40,7 @@ let min=100;
     console.log("year is not leap year");
   }*/
 
-  let checknum=Math.floor(Math.random()*10)+1;
+  /*let checknum=Math.floor(Math.random()*10)+1;
 console.log(checknum);
 switch(checknum)
 {
@@ -70,5 +70,35 @@ switch(checknum)
     break;
   case 9:
     console.log("number is-NINE");
+    break;
+}*/
+
+/*==============(use case4 read a number and display the week days)================ */
+let max=7;
+let min=1;
+ let checknum=Math.floor(Math.random() * (max - min + 1) + min);
+ console.log(checknum);
+switch(checknum)
+{
+  case 1:
+    console.log("TODAY is-MONDAY");
+    break;
+  case 2:
+    console.log("TODAY is-TUESDAY");
+    break;
+  case 3:
+    console.log("TODAY is-WEDNESDAY");
+    break;
+  case 4:
+    console.log("TODAY is-THURSDAY");
+    break;
+  case 5:
+    console.log("TODAY isFRIDAY");
+    break;
+  case 6:
+    console.log("TODAY is-SATURDAY");
+    break;
+  case 7:
+    console.log("TODAY is-SUNDAY");
     break;
 }
