@@ -1,5 +1,5 @@
 /* ========(use case1: greates number)=============*/
-let max=999;
+/*let max=999;
 let min=100;
  let number1=Math.floor(Math.random() * (max - min + 1) + min);
  let number2=Math.floor(Math.random() * (max - min + 1) + min);
@@ -24,5 +24,18 @@ let min=100;
   else
   {
       console.log("the Third number is greatest among all");
-  }
+  }*/
 
+  let year=1980;
+  if (year % 400 == 0)
+  {
+    console.log("year is leap year");
+  }
+  else if (year % 4 == 0)
+  {
+    console.log("year is leap year");
+  }
+  else
+  {
+    console.log("year is not leap year");
+  }
